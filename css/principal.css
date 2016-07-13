@@ -1,0 +1,109 @@
+#container {
+	position: relative;
+	margin: 0 auto; 
+	max-width: 900px; 
+	width:80%;
+	min-height: 1200px;
+	padding-bottom:100px;
+	background-color:  #ffffff; 
+}
+
+#wrapper {
+	background-color: #99ff99; 
+	width:100%;
+	z-index:-99;
+	margin:0;
+}
+
+body {
+	background-color: #99ff99; 
+}
+
+.fixed {
+	position: fixed; 
+}
+
+.topbar {
+	position: fixed; 
+	z-index:90; 
+	top:0;
+	left:0;
+	width:100%;
+	height:50px;
+	background-color:#009933;
+}
+
+.topbar-container {
+	margin:auto;
+	max-width:900px;
+	height:100%;
+}
+
+.pesquisa-container {
+	margin-top:10px;
+	margin-left:10%;
+}
+
+.ranking {
+	position:relative; 
+	clear:left;
+	color: green; 
+}
+
+#section-resultados {
+	position: relative; 
+	top:70px; 
+	left:30px;
+	margin-right:100px;
+}
+
+#section-resultados h3{
+	margin-bottom:5px;
+}
+
+#section-resultados a{
+	color:black;
+}
+
+#pesquisa {
+	width:250px;
+	height:20px;
+}
+
+footer p {
+	text-align:center; 
+}
+
+ul.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+	cursor:pointer;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+	background-color:#ddd;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.pagination li a.pagination-current {
+    color: black;
+	background-color:#4CAF50;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: #4CAF50;}
+
+#pesquisar {
+	width:30px;
+	height:30px;
+	background-image: url("/imagens/search.png");
+	background-size:30px 30px; 
+}
